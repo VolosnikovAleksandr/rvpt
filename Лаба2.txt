@@ -1,0 +1,38 @@
+1) стереть папку NodeProject. Или зайти в любую пустую папочку.
+
+2) В той директории, где она лежала раньше, прописать
+
+npx express-generator-typescript NodeProject
+
+3) Войти в созданную папку
+
+Если не получились п.2 и п.3, скачать архив, распаковать, добавить в чистую папку, открыть
+
+4) В терминале:
+
+git init
+
+git add .
+
+git commit -m "initial commit"
+
+git remote add origin *ссылка с вашего репозитория node-project*
+
+git push origin master
+
+5) Основная задача - реализовать методы get, get:id, post, patch, delete,
+которые взаимодействуют с txt фаликом.
+
+get - выдаёт список
+
+get:id - выдаёт конкретный элемент списка
+
+post - добавляет в список
+
+delete - удаляет из списка по id
+
+patch - редактирует список
+
+Пример списка в txt:
+
+[{"id":1,"name":"Lisa"},{"id":2,"name":"Vasya"},{"id":3,"name":"Barsik"}]
